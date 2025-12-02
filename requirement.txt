@@ -1,0 +1,6 @@
+asyncio
+discord-webhook
+discord
+requests
+colorama
+aiohttp
