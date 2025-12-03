@@ -52,7 +52,7 @@ def banner(e):
 
 Best used in fullscreen (F11 in CMD/Terminal)
 
-Version 11 (in development)
+Version 11.2 (in development)
 
 Made by Arran (github: Epicinver)
 Feel free to check out some other shit i made
@@ -88,4 +88,5 @@ def warning():
             retardprint(True, line)
         retardprint(True, "This function may be dangerous. Press enter to continue.")
         input()
+
 
