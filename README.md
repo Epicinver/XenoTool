@@ -36,4 +36,7 @@ Runs Xeno. install.bat should auto open this, but after first use, please always
 Run "pip uninstall -r requirement.txt" in the Xeno directory in your terminal.
 Then delete Xeno's folder via GUI/terminal.
 
+# Xeno menu
+
+
 <img src="./media/preview.png"></img>
